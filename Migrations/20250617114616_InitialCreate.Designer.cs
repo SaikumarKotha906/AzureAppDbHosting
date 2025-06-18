@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AzureAppDbHosting.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250616093343_InitialDbSetup")]
-    partial class InitialDbSetup
+    [Migration("20250617114616_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
